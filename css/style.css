@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body {
+    line-height: 1;
+    width: 100%;
+    background-image: url(../images/bg-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f2f2f2;
+} */
+body {
+    line-height: 1;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    min-height: 1350px;
+    background-image: url(../images/bg-top.jpg), url(../images/bg-bottom.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto;
+    background-position: top center, bottom center;
+    background-color: #f2f2f2;
+  }
+
+.container {
+    margin: 0 auto;
+    width: 780px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    height: 65px;
+    align-items: center;
+    font-size: 13px;
+}
+
+.menu li {
+    padding: 0 12px;
+    
+}
+
+.menu a:hover {
+    color :#f93900;
+}
+.menu li + li {
+    border-left: 1px solid #fff;
+}
+
+
+.menu li:nth-child(4) {
+    border-right: 1px solid #fff;
+}
+
+.menu li:nth-child(5) {
+    margin-left: 160px;
+}
+
+.button {
+    margin-top: 445px;
+    height: 207px;
+    background-color: #112141;
+    position: relative;
+
+
+}
+
+.longden img {
+    position: absolute;
+    width: 95px;
+    height: 188px;
+    top: 0;
+    left: -65px;
+    z-index: 1;
+}
+
+.download-button {
+    background-image: url(../images/btn_taigame.jpg);
+    height: 100px;
+    width: 187px;
+    background-size: 190px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.download-button a {
+    height: 100px;
+    width: 187px;
+    position: absolute;
+
+
+}
+
+.download-button a:hover {
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+
+.reg-button {
+    background-image: url(../images/buttons-left.png);
+    height: 50px;
+    width: 187px;
+    background-size: 380px;
+    position: absolute;
+    top: 102px;
+    left: 3px;
+
+}
+
+.reg-button:hover {
+    background-position: -193px 0;
+    cursor: pointer;
+}
+
+.napthe-button {
+    background-image: url(../images/buttons-left.png);
+    height: 48px;
+    width: 187px;
+    background-size: 380px;
+    background-position: 0 48px;
+    position: absolute;
+    top:155px;
+    left: 3px;
+}
+
+.napthe-button:hover {
+    background-position: -193px 48px;
+    cursor: pointer;
+}
+
+.slider img {
+    width: 393px;
+    height: 201px;
+    position: absolute;
+    top: 2px;
+    left: 196px;
+}
+
+.event img {
+    width:200px;
+    position: absolute;
+    top: -3px;
+    right: -16px;
+}
+
+
+
+.button-1 {
+    width: 87px;
+    height:88px;
+    position: absolute;
+    background-image: url(../images/buttons-right.png);
+    background-size: 200px;
+    background-position: 0 0;
+    top: -3px;
+    right: 97px;
+}
+
+.button-1 a {
+    width: 87px;
+    height: 82px;
+    position: absolute;
+    top: 5px;
+}
+
+
+.button-2 {
+    width: 106px;
+    height:88px;
+    position: absolute;
+    background-image: url(../images/buttons-right.png);
+    background-size: 200px;
+background-position: 106px 0;
+    top: -3px;
+    right: -15px;
+}
+
+.button-2 a {
+    width: 87px;
+    height: 82px;
+    position: absolute;
+    top: 5px;
+}
+
+.button-3 {
+    width: 87px;
+    height:88px;
+    position: absolute;
+    background-image: url(../images/buttons-right.png);
+    background-size: 200px;
+    background-position: 199px 88px;
+    top: 85px;
+    right: 96px;
+}
+
+.button-3 a {
+    width: 87px;
+    height: 82px;
+    position: absolute;
+    top: 5px;
+}
+
+.button-4 {
+    width: 87px;
+    height:88px;
+    position: absolute;
+    background-image: url(../images/buttons-right.png);
+    background-size: 200px;
+    background-position: 108px 87px;
+    top: 86px;
+    right: 4px;
+}
+
+.button-4 a {
+    width: 87px;
+    height: 82px;
+    position: absolute;
+    margin-top:5px;
+}
+
+.button-1 a:hover, .button-2 a:hover, .button-3 a:hover, .button-4 a:hover{
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+.hotline {
+    width: 300px;
+    height: 29px;
+    background-image: url(../images/hotline.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: 58px 0;
+    position: absolute;
+    top: 178px;
+    right: -58px;
+}
+.sub-button {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+/* .giftcode {
+    display: block;
+    width: 590px;
+    height: 68px;
+    background-image: url(../images/cuuamlenh-vip-giftcode.png);
+    background-repeat: no-repeat;
+    background-size: 590px;
+    margin-top: 5px;
+} */
+
+
+.claim {
+    width: 193px;
+    height: 67px;
+    background-image: url(../images/cuuamlenh-vip-giftcode.png);
+    background-repeat: no-repeat;
+    background-size: 586px;
+    background-position: 0 0;
+    position: absolute;
+    top: 5px;
+    left: 0;
+
+}
+
+.claim a {
+    position: absolute;
+    width: 193px;
+    height: 67px;
+    top: 0;
+    left: 0;
+}
+
+.vip {
+    width: 195px;
+    height: 67px;
+    background-image: url(../images/cuuamlenh-vip-giftcode.png);
+    background-repeat: no-repeat;
+    background-size: 586px;
+    background-position: -197px 0;
+    position: absolute;
+    top: 5px;
+    left: 197px;
+
+}
+
+.vip a {
+    position: absolute;
+    width: 193px;
+    height: 67px;
+    top: 0;
+    left: 0;
+}
+
+.claim-giftcode {
+    width: 195px;
+    height: 67px;
+    background-image: url(../images/cuuamlenh-vip-giftcode.png);
+    background-repeat: no-repeat;
+    background-size: 586px;
+    background-position: -394px 0;
+    position: absolute;
+    top: 5px;
+    left: 394px;
+
+}
+
+.claim-giftcode a {
+    position: absolute;
+    width: 193px;
+    height: 67px;
+    top: 0;
+    left: 394;
+}
+
+.claim a:hover, .vip a:hover, .claim-giftcode a:hover {
+    background-color: rgba(255,255,255,0.6);
+}
